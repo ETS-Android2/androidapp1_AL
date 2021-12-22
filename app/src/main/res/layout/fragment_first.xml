@@ -7,64 +7,155 @@
     android:background="@drawable/background"
     tools:context=".FirstFragment">
 
+<!--    Profile header-->
+
+    <!--    End of profile header-->
+
+<!--    First Row-->
 <!-- Calendar -->
 
-    <!--Notes-->
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="155dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/profpic"
+        android:src="@drawable/profpic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04000002"
+        tools:ignore="MissingConstraints,UnknownId" />
+
+    <TextView
+        android:id="@+id/profilename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alexa Lopez"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.110000014"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today is going to be weird."
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16000003"
+        tools:ignore="MissingConstraints" />
+
     <Button
         android:id="@+id/calendar"
-        android:layout_width="123dp"
-        android:layout_height="99dp"
+        android:layout_width="116dp"
+        android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
         android:orientation="horizontal"
         android:text="@string/calendar"
+        app:backgroundTint="#B065C6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintHorizontal_bias="0.03"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.110000014" />
+        app:layout_constraintVertical_bias="0.49" />
 
+<!--    Notes-->
+
+    <!--    Calculator-->
     <Button
-        android:id="@+id/notes"
+        android:id="@+id/something1"
         android:layout_width="116dp"
-        android:layout_height="97dp"
+        android:layout_height="150dp"
         android:orientation="horizontal"
         android:text="@string/notes"
+        app:backgroundTint="#B065C6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/notes"
-        app:layout_constraintVertical_bias="0.110000014" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81" />
 
-<!--    Calculator-->
     <Button
         android:id="@+id/calculator"
-        android:layout_width="122dp"
-        android:layout_height="97dp"
+        android:layout_width="116dp"
+        android:layout_height="150dp"
         android:orientation="horizontal"
         android:text="@string/calculator"
-        android:textSize="12sp"
+        android:textSize="11sp"
+        app:backgroundTint="#B065C6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintHorizontal_bias="0.98"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/calculator"
-        app:layout_constraintVertical_bias="0.110000014" />
+        app:layout_constraintVertical_bias="0.49" />
 
-<!--    &lt;!&ndash;    Location&ndash;&gt;-->
-<!--    <Button-->
-<!--        android:id="@+id/location"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/calculator"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.1"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/location"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        />-->
+<!--    End of first row-->
+<!--    Start of second row-->
+    <!-- Location -->
+    <Button
+        android:id="@+id/location"
+        android:layout_width="116dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:text="@string/location"
+        app:backgroundTint="#B065C6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81" />
+
+    <!--    Notes-->
+    <Button
+        android:id="@+id/notes"
+        android:layout_width="116dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:text="@string/notes"
+        app:backgroundTint="#B065C6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49" />
+
+    <!--    Calculator-->
+    <Button
+        android:id="@+id/planner"
+        android:layout_width="116dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:text="@string/planner"
+        android:textSize="12sp"
+        app:backgroundTint="#B065C6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81" />
+
+    <!--    End of second row-->
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 <!--Adds a lot of space between text and button-->
 <!--    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--    android:layout_toLeftOf="@+id/profpic"-->
