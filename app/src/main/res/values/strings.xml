@@ -6,6 +6,10 @@
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
+    <string name="calendar">Calendar</string>
+    <string name="notes">Notes</string>
+    <string name="calculator">Calculator</string>
+    <string name="location">Location</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="primary_color">Primary color</string>
