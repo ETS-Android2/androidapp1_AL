@@ -7,28 +7,7 @@
     android:background="@drawable/background"
     tools:context=".FirstFragment">
 
-<!--    Profile header-->
-
-    <!--    End of profile header-->
-
 <!--    First Row-->
-<!-- Calendar -->
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="155dp"
-        android:layout_height="140dp"
-        android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@+id/profpic"
-        android:src="@drawable/profpic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.062"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.118"
-        tools:ignore="MissingConstraints,UnknownId" />
-
     <TextView
         android:id="@+id/profilename"
         android:layout_width="wrap_content"
@@ -59,6 +38,8 @@
 
     <Button
         android:id="@+id/calendar"
+        android:name="calendar"
+        android:label="@string/calendar"
         android:layout_width="116dp"
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
@@ -74,13 +55,13 @@
 
 <!--    Notes-->
 
-    <!--    Calculator-->
+    <!--    photos-->
     <Button
-        android:id="@+id/something1"
+        android:id="@+id/photos"
         android:layout_width="116dp"
         android:layout_height="150dp"
         android:orientation="horizontal"
-        android:text="@string/notes"
+        android:text="@string/photos"
         app:backgroundTint="#B065C6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -152,6 +133,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.81" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="169dp"
+        android:layout_height="169dp"
+        android:src="@drawable/profpic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024" />
 
     <!--    End of second row-->
 </androidx.constraintlayout.widget.ConstraintLayout>

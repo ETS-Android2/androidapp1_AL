@@ -8,13 +8,14 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="calendar">Calendar</string>
     <string name="notes">Notes</string>
+    <string name="photos">Photos</string>
     <string name="calculator">Calculator</string>
     <string name="location">Location</string>
     <string name="planner">Planner</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="primary_color">Primary color</string>
-    <string name="button">Button</string>
+    <string name="back">Back</string>
     <string name="secondary_color">Secondary color</string>
     <string name="email_icon">email icon</string>
     <string name="hello_first_fragment">Hello first fragment</string>
